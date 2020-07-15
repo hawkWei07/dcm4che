@@ -48,8 +48,8 @@
   <el keyword="ImageTypeEDES" tag="2001xx07" vm="1" vr="CS">Image Type End Diastole or End Systole</el>
   <el keyword="PhaseNumber" tag="2001xx08" vm="1" vr="IS">Phase Number</el>
   <el keyword="ImagePrepulseDelay" tag="2001xx09" vm="1" vr="FL">Image Prepulse Delay</el>
-  <el keyword="ImagePlaneNumber" tag="2001xx0A" vm="1" vr="IS">Image Plane Number</el>
-  <el keyword="ImageOrientation" tag="2001xx0B" vm="1" vr="CS">Image Orientation</el>
+  <el keyword="SliceNumber" tag="2001xx0A" vm="1" vr="IS">Slice Number</el>
+  <el keyword="SliceOrientation" tag="2001xx0B" vm="1" vr="CS">Slice Orientation</el>
   <el keyword="ArrhythmiaRejection" tag="2001xx0C" vm="1" vr="CS">Arrhythmia Rejection</el>
   <el keyword="CardiacCycled" tag="2001xx0E" vm="1" vr="CS">Cardiac Cycled</el>
   <el keyword="CardiacGateWidth" tag="2001xx0F" vm="1" vr="SS">Cardiac Gate Width</el>
@@ -157,6 +157,6 @@
   <el keyword="ExamCardName" tag="2001xxC8" vm="1" vr="LO">Exam Card Name</el>
   <el keyword="DerivationDescription" tag="2001xxCC" vm="1" vr="ST">Derivation Description</el>
   <el keyword="_2001_xxDA_" tag="2001xxDA" vm="1" vr="CS">?</el>
-  <el keyword="ProspectiveMotionCorrection" tag="2001xxF1" vm="1-n" vr="FL">Prospective Motion Correction</el>
-  <el keyword="RetrospectiveMotionCorrection" tag="2001xxF2" vm="1-n" vr="FL">Retrospective Motion Correction</el>
+  <el keyword="ProspectiveMotionCorrection" tag="2001xxF1" vm="6" vr="FL">Prospective Motion Correction</el>
+  <el keyword="RetrospectiveMotionCorrection" tag="2001xxF2" vm="6" vr="FL">Retrospective Motion Correction</el>
 </elements>

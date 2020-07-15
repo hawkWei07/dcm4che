@@ -6,3 +6,6 @@
 target/
 .recommenders/
 .metadata/
+dcm4che-dict/src/main/resources/PHILIPS-IMAGING-DD-001.xml
+dcm4che-dict/src/main/resources/PHILIPS-MR-IMAGING-DD-001.xml
+dcm4che-dict/src/main/resources/PHILIPS-MR-IMAGING-DD-001.xml
